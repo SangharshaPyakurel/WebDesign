@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@keyframes car
+		{
+			0%{top: 0; left: 0; }
+			20%{top: 0; left: 500px; transform: rotate(0deg); }
+			25%{top: 0; left: 500px; transform: rotate(90deg); }
+			40%{top: 400px; left: 500px; transform: rotate(90deg); }
+		45%{top: 400px; left: 500px; transform: rotate(180deg); }
+			70%{top: 400px; left: 0px; transform: rotate(180deg); }
+			75%{top: 400px; left: 0px; transform: rotate(270deg); }
+			95%{top: 0px; left: 0px; transform: rotate(270deg); }
+			100%{top: 0px; left: 0px; transform: rotate(360deg); }
+		}
+		.car
+		{
+			animation-name: car;
+			animation-duration: 13s;
+			animation-iteration-count: infinite;
+			position: absolute;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="car">
+		<img src="img/car.png" width="90">
+	</div>
+
+</body>
+</html>

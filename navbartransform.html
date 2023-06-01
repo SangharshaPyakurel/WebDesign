@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nav</title>
+	<style type="text/css">
+		nav ul
+		{
+			list-style: none;
+		}
+		nav ul li
+		{
+			display: inline;
+		}
+		nav ul li a
+		{
+			text-decoration: none;
+			padding: 20px;
+		}
+		nav ul li
+		{
+			position: relative;
+		}
+		nav ul li:after
+		{ 
+			content: ''; 
+			position: absolute; 
+			width: 40px; 
+			height: 2px; 
+			background: red; 
+			left: 21px; 
+			top: 31px; 
+			transform: scale(0); 
+			transition: 1.5s; 
+		}
+		nav ul li:hover:after{ transform: scale(2); }
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">SERVICE</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="abc"><h1>Hello Nepal</h1></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$(".hide").click(function()
+			{
+				$(".abc").hide()
+			})
+		
+			$(".addclass").click(function()
+			{
+				$(".abc").addClass("red")
+			})
+			$(".toggleclass").click(function()
+			{
+				$(".abc").toggleClass("red")
+			})
+		})
+	</script>
+	<style type="text/css">.red{ color: red;}</style>
+	<button class="hide">Hide</button>
+	<button class="addclass">Add Class</button>
+	<button class="toggleclass">teoggleclass</button>
+</body>
+</html>

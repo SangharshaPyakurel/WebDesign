@@ -1,0 +1,98 @@
+.top_header
+{
+    padding-top: 5px;
+}
+.h11
+{
+        padding-top: 15px;
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: none;
+}
+.blue
+{
+    background: blue;
+    border-radius: 0 0 50% 40%;
+}
+.what
+{
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0px;
+    color: burlywood;
+    margin-left: -15px;
+    
+}
+.wh{
+    padding: 10px;
+}
+.red
+{
+    background: cadetblue;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 90px;
+}
+.red i{
+    text-align: center;
+}
+.red_1
+{
+    background: darkgray;
+    margin-top: 30px;
+    font-size: 20px;
+    height: 90px;
+    color: whitesmoke;
+}
+.content
+{
+    background: whitesmoke;
+    margin-top: 10px;
+}
+.content img{
+    margin-left: 30%;
+    height: auto;
+    width: 50%;
+}
+.b1
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.b1 i{
+    margin: 9px;
+    font-size: 30px;
+} 
+.b11
+{
+    font-size: 12px;
+    font-weight: 300;
+}
+.ss
+{
+    margin-top: px;
+    border: 1px solid springgreen;
+}
+.ss:hover{
+    box-shadow: 5px 5px sienna;
+}
+footer
+{
+    background: skyblue;
+    height: 50px;
+    margin-top: 20px;
+}
+@media (max-width:768px){
+    .logo
+    {
+        text-align: center;
+    }
+    .h11
+    {
+        display: none;
+    }
+}

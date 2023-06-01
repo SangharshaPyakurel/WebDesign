@@ -1,0 +1,330 @@
+/* top-Head Open */
+*
+{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.top-head
+{
+	
+	background: blue;
+}
+.info 
+{
+	float: left;
+}
+.info a
+	{
+    display: inline-block;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.details
+{
+	float: right;
+}
+.details ul
+{
+	list-style: none;
+	color: #fff;
+}
+.details ul li
+{
+	float: left;
+}
+.details ul li a
+{
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+/* Top-head End */
+/* Header Open */
+
+	.header
+	{
+		background: green;
+		height: auto;
+	}
+/* Header CLosed */
+
+.clearfix
+{
+	clear: both;
+}
+
+
+
+
+.navbar
+{
+	box-shadow: 1px 1px 4px #fb0003;
+	}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 0.5rem !important;
+    font-weight: 800;
+    border-right: 0.1px solid #fff;
+    color: #83536e;
+}
+.nav-link {
+    display: block;
+    padding: 0.3rem 0.9em !important;
+}
+.nav-link a
+{
+	text-decoration: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+	color: #fb0003;
+	background: green;
+	text-decoration: underline;
+}
+#HightLightnews
+{
+	height: auto;
+	width: 150px;
+	border: 1px solid red;
+	background: #940001;
+	margin-top: -55px;
+	color: #fff;
+	z-index: 2;
+	 position: absolute;
+}
+#HightLightnews p
+{
+	text-align: center;
+	padding-top: 7px;
+
+}
+.nav-item:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+	.info
+	{
+		text-align: center;
+		padding-left: 60px;
+	}
+	.details
+	{
+		display: none;
+	}
+	.a
+	{
+		display: none;
+	}
+	.b
+	{
+		text-align: center;
+		padding: 20px;
+	}
+	.c
+	{
+		display: none;
+	}
+	.wrapper_intro p
+	{
+		text-align: center;
+		margin-left: -10px;
+	}
+	.wrapper_intro h2
+	{
+		text-align: center;
+		font-size: 1.2em !important;
+	}
+	.principal_message
+	{
+		margin-left: 10px !important;
+	}
+	.principal_message img
+	{
+		margin-left: 0px !important;
+		width: 100%;
+	}
+	
+}
+@media (max-width: 600px)
+{
+	.aa
+	{
+		border-bottom: 2px solid #efefef;
+		margin-top: 5px;
+		border-right: 2px solid transparent !important;
+	}
+}
+/* Wrapper_intro */
+.wrapper_intro h2
+{
+	font-weight: 600!important;
+	font-size: 2.2em !important;
+}
+.wrapper_intro p
+{
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.principal_message
+{
+	height: 400px;
+	width: 100%;
+	background: green;
+	
+}
+#more {display: none;}
+/* Wrapper Intro Closed */
+/* Banner Open */
+.event
+{
+	background: green;
+}
+.event a p
+ {
+    width: 60px;
+    height: 60px;
+    background: white;
+    margin-left: 150px;
+    float: left;
+}
+.event a p span
+{
+	text-align: center;
+	padding: 7px;
+	color: blue;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding-left: 15px;
+	
+}
+.event a h3 
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 0.9;
+    padding-top: 20px;
+    margin-left: 280px !important;
+    font-weight: bold;
+}
+.event a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+/* Bulletin */
+.bulletin
+{
+	background-image: url(../img/plain.jpg); 
+	background-size: cover;
+	width: 100%;
+}
+.bulletin a p
+ {
+    width: 60px;
+    height: 60px;
+    background: white;
+    margin-left: 150px;
+    float: left;
+}
+.bulletin a p span
+{
+	text-align: center;
+	padding: 7px;
+	color: blue;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding-left: 15px;
+	
+}
+.bulletin a h3 
+{
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 0.9;
+    padding-top: 20px;
+    margin-left: 280px !important;
+    font-weight: bold;
+}
+.bulletin a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+/* Footer */
+.footer
+{
+	background: green;
+	margin-top: -8px;
+	color: #fff;
+}
+.footer h4 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 1.25em;
+    padding: 15px 0px;
+        padding-bottom: 15px;
+    padding-bottom: 17px;
+    font-weight: 500;
+}
+.ftr
+{
+	color: #fff;
+	list-style: none;
+}
+.ftr li
+{
+	padding: 10px 0;
+}
+.ftr li a
+{
+    color: #fff !important;
+    font-size: 1em !important;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+}
+.ftr li a:hover
+{
+	text-decoration: none;
+}
+hr
+{
+	background-color: #fff !important;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#slide
+		{
+			width: 0px;
+			height: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			color: #fff;
+			background: #000;
+			overflow: hidden;
+			transition: 0.6s;
+		}
+	</style>
+</head>
+<body>
+	<h3 onclick="navo()">Open</h3>
+	<div id="slide">
+		<h4 onclick="navc()">close</h4>
+	</div>
+	<script type="text/javascript">
+		function navo()
+		{
+			document.getElementById('slide').style.width='230px';
+		}
+		function navc()
+		{
+			document.getElementById('slide').style.width='0px';
+		}
+	</script>
+
+</body>
+</html>

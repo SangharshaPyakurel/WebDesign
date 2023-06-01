@@ -1,0 +1,78 @@
+
+
+.logo{
+    height: 120px;
+    width: 150px;
+    outline: solid 5px black;
+    margin-left: 50px;
+   
+}
+
+.navbar-right{
+    text-align: center;
+    font-size: 25px;
+}
+
+.navbar-right>li>a{
+    color: white !important;
+    margin-top: 13px;
+}
+
+.middle{
+    background-image: url(../image/shoes.jpg);
+    width: 100%;
+    margin-top: -20px;
+    color: #fff;
+}
+
+nav{
+    margin-bottom: 0px;
+}
+
+.words{
+     color: orange;
+     text-align: center;
+     margin-top: 50px;
+     overflow: hidden;
+     font-size: 40px;
+     font-weight: 800;
+}
+
+.changing:after{
+    content: none;
+    animation: changetext 40s infinite linear;
+    color: black;
+    text-transform: uppercase;
+    color:orange;
+    font-size: 70px;
+}
+
+
+@keyframes changetext{
+    0%{ content: "converse";}
+    10%{ content: "goldstar";}
+    20%{ content: "vans";}
+    30%{ content: "dockside";}
+    40%{ content: "dr martin";}
+    50%{ content: "timberland";}
+    60%{ content: "playboy";}
+    70%{ content: "adidas";}
+    80%{ content: "nike";}
+    100%{ content: "reebok";}
+
+}
+
+.card{
+    border: 4px solid black;
+    width: 300px;
+}
+
+.card-title
+{
+    text-align: center;
+}
+
+hr{
+    border-top: 3px solid red !important;
+}
+

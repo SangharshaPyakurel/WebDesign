@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		body
+		{
+			height: 1990px;
+		}
+		header
+		{
+			padding: 90px 0;
+			background: transparent;
+			position: fixed;
+			top: 0px;
+			left: 0;
+			width: 100%;
+			transition: 0.9s;
+		}
+		.red
+		{
+			background: red;
+			padding: 50px 0;
+		}
+		.arrow
+		{
+			padding: 20px;
+			bottom: 20px;
+			position: fixed;
+			background: red;
+		}
+		.logo
+		{
+			font-size: 50px;
+			position: fixed;
+			padding: 20px;
+			width: 20%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo">Logo
+		</div>
+	</header>
+	<div class="arrow"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(window).scroll(function()
+	{
+		if($(this).scrollTop()> 50)
+		{
+			$("header").addClass("red")
+		}
+		else
+		{
+			$("header").removeClass("red")
+		}
+		if($(this).scrollTop()> 50)
+		{
+			$(".arrow").fadeIn()
+		}
+		else
+		{
+			$(".arrow").fadeOut()
+		}
+		if($(this).scrollTop()> 50)
+		{
+			$(".logo").fadeIn()
+		}
+		else
+		{
+			$(".logo").fadeOut()
+		}
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+body
+{
+	 background: #034ea2;
+	 font-family: 'Noto Sans', sans-serif;
+}
+.page
+{
+	width: 1024px;
+	margin: auto;
+}
+header
+{
+	padding: 20px;
+
+}
+.logo
+{
+	float: left;
+}
+nav
+{
+	float: right;
+}
+nav ul
+{
+	list-style:none;
+	font-size: 15px;
+}
+nav ul li 
+{
+	float: left;
+	padding-top: 20px;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 8px;
+} 
+.clearfix
+{
+	clear: both;
+}
+.slider
+{
+	background: #fff;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
+	
+}
+.slider img
+{
+	width: 100%;
+	border-radius: 15px;
+}
+.content
+{
+	background: #fff;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 20px;
+
+
+}
+.content p
+{
+	text-align: justify;
+	font-size: 13px;
+	padding: 10px;
+}
+.content h3
+{
+	color: #034ea2;
+	font-size: 27px;
+	padding: 0px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+.content h3 span
+{
+	color: #e37e11;
+	font-size: 30px;
+}
+.content img
+{
+	float:left;
+	width: 300px;
+	margin: 20px;
+	padding-top: -70px;
+	height: 222px;
+}
+.content h4
+{
+	padding: 15px;
+	background: #e3e3e3;
+	font-size: 23px;
+}
+.content h4 span
+{
+	color: #e37e11;
+	font-size: 30px;
+}
+.wrapper
+{
+	width: 100%;
+}
+.wrapper h2
+{
+	margin: center;
+	float: left;
+}
+.wrapper p
+{
+	float: left;
+	padding: 20px;
+	text-align: justify;
+	
+
+}
+.wrapper img
+{
+	float: right;
+	padding-top: -30px;
+}
+.clearfix
+{clear: both;}
+footer
+{
+	padding: 20px 0px;
+	color: #fff;
+}
+.fleft
+{
+	float: left;
+}
+.fright
+{
+	float: right;
+}
+.active a
+{
+	color: red;
+}

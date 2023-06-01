@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Butcherman|Hanalei&display=swap&subset=latin-ext');
+body
+{
+  height: 1990px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn btn-success
+{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: 2px yellow;
+    opacity:1
+}
+.abc 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  transition:2s;
+  min-height: 10px;
+  transition: min-height .35s ease-out;
+  box-shadow: rgba(0,0,0,1px);
+}
+.abc li 
+{
+  float: left;
+}
+
+.abc li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+.abc li a:hover {
+  background-color: #111;
+}
+{
+}
+.navbar 
+{
+    background-color: #fff;
+    min-height: 55px;
+    box-shadow: 0 1px 6px rgba(57,73,76,.35);
+}
+.banner
+{
+  
+    background-image: url(img/sales-marketing.webp);
+    background-size: cover;
+    background-position: 60%;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.qw
+{
+  padding-top: 150px;
+  color: #000;
+}
+.qw span 
+{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 30px;
+}
+.pp
+{
+  padding: 30px;
+}
+.card
+{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    overflow: hidden;
+    box-shadow: 0 4px 9px rgba(57,73,76,.35);
+}
+.ll
+{
+  margin-top: 50px;
+  text-align: center;
+}
+.ll span
+{
+  color: green;
+  padding: 0 2px;
+}
+.LogoHub
+{
+  background-color: #494949;
+  height: 130px;
+  
+}
+.loo
+{
+  background-image: ;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+.mt-5, .my-5 {
+    margin-top: 6rem!important;
+}
+.hrr 
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 262px;
+    margin-top: 30px;
+}
+.hrr {
+    font-size: 13px;
+    border-right: 4px solid green;
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: normal !important;
+}
+.pricing-table
+{
+  margin-top: 40px;
+
+}
+.chw
+{
+  text-align: center;
+  font-weight: bold;
+}
+.ch1
+{
+  text-align: center;
+  color: #6579a0;
+}
+.ba
+{
+  text-align: center;
+  font-size: 1.10em;
+  font-weight: bold;
+}
+.ev
+{
+  color: #65658e;
+  text-align: center;
+  font-size: 0.7em;
+}
+.ev span
+{
+  font-weight: bold;
+  color: #000;
+}
+.btn
+{
+  padding-right: 30px;
+}
+.aas
+{
+  text-align: center;
+  color: #65658e;
+}
+.bn
+{
+  margin-left: 55px;
+  text-align: center;
+}
+.bn:hover
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.fr
+{
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 20px;
+}
+.vwk i
+{ 
+  color: #3ca000;
+}
+.vwk span
+{
+  color: #3e3032;
+  font-size: 0.9em;
+}
+.pm
+{
+  margin-top: 40px;
+  font-size: 0.8em;
+
+}
+.insta
+{
+  background: #494949;
+  margin-top: 90px;
+
+}
+.ins
+{
+  font-size: 35px;
+line-height: 43px;
+font-weight: 700;
+color: #fff;
+padding-top: 80px;
+}
+.up
+{
+  color: #565953;
+  font-size: 0.9em;
+  font-style: italic;
+}
+.img1
+{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+iframe
+{
+  padding-top: 80px;
+}
+.skill
+{
+  padding-top: 40px;
+  background: #f9f9f9;
+}
+.ts
+{
+  font-size: 0.9em;
+  margin: 0 0 30px;
+   margin-bottom: 30px;
+   color: #222;
+}
+.tp
+{
+  color: #222;
+  font-size: 0.8em;
+  font-weight: bold;
+ 
+}
+.tp:hover
+{
+    color: #008329;
+    text-decoration: underline;
+}
+
+.ts1 
+{
+    font-size: 0.9em;
+    margin: 0 0 30px;
+    margin-bottom: 30px;
+    margin-bottom: 23px;
+    color: #222;
+    margin-top: 20px;
+}
+.lt
+{
+  text-align: center;
+  margin: 0 0 0 40%;
+}
+.btn
+{
+  border: 3px solid green;
+}
+.lt:hover 
+ {
+    transition: all .3s;
+    outline: none;
+    box-shadow: 0 2px 10px 1px rgba(57,73,76,.4),0 1px 2px rgba(57,73,76,.25);
+}
+footer
+{
+  background: #656565;
+  margin-top: 20px;
+  color: #ccdee0;
+  text-align: center;
+}
+.foo
+{
+  font-size: 0.9em;
+  padding-top: 20px;
+  text-align: center;
+}
+.ccc
+{
+  font-size: 0.9em;
+  text-align: justify;
+}
+.aaaa
+{
+  text-decoration: none;
+  color: #fff;
+}
+.aaaa:hover
+{
+  color: #fefefe;
+}
+.f_left
+{
+  float: left;
+}
+.aww
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.aww li
+{
+  float: left;
+}
+.aww li a 
+{
+  display: block;
+  width: 60px;
+}
+.f_right
+{
+  float: right;
+}
+.aww1
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.aww1 li
+{
+  float: right;
+}
+.aww1 li a 
+{
+  display: block;
+  width: 60px;
+}
+.fa
+{
+  color: #fff;
+}
+.fa:hover
+{
+  color: green;
+}
+.last
+{
+  font-size: 0.9em;
+  padding: 5px 0 14px 0;
+}
+

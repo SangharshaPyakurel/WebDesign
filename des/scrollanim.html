@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body
+		{
+			height: 1990px;
+		}
+		header
+		{
+			background: green;
+			height: 100px;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			transition: 0.9s;
+		}
+		.red
+		{
+			background: red;
+			padding: 50px 0;
+		}
+
+		
+	</style>
+	<title></title>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			if($(this).scrollTop()>50)
+			{
+				$("header").addClass("red")
+			}
+			else
+			{
+				$("header").removeClass("red")
+			}
+		})
+	</script>
+
+</body>
+</html>

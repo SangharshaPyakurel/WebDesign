@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK|Open+Sans:400,600,600i,700&display=swap');
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Noto Sans HK', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+	width: 1170px;
+	margin: auto;
+}
+.container:after
+{
+	clear: both;
+	content: '';
+	display: block;
+}
+.top
+{
+	background: #182937;
+	padding: 8px 0px;
+	left: 0px;
+}
+.topleft
+{
+	float: left;
+}
+.topleft ul
+{
+	list-style: none;
+}
+.topleft ul li
+{
+	display: inline;
+}
+.topleft ul li a
+{
+	text-decoration: none;
+	color: #8c8a7d;
+	padding: 12px;
+}
+.topleft ul li a:hover
+{
+	color: orange;
+}
+.topright
+{
+	float: right;
+}
+.topright ul
+{
+	list-style: none;
+}
+.topright ul li
+{
+	display: inline;
+}
+.topright ul li a
+{
+	text-decoration: none;
+	color: #8c8a7d;
+	padding: 12px;
+}
+.topright ul li a:hover
+{
+	color: orange;
+}
+.banner
+{
+	background: url('../img/ban.jpg');
+	background-size: cover;
+}
+.banner-inner
+{
+	background: rgba(0,0,0,0.4);
+	height: 550px;
+}
+header
+{
+	padding: 20px;
+}
+.logo
+{
+	float: left;
+	
+}
+nav
+{
+	float: right;
+
+}
+nav ul
+{
+	list-style: none;
+}
+nav ul li
+{
+	display: inline;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+.bg2
+{
+	color: #fff;
+	padding-top: 130px;
+	text-align: center;
+}
+.bg2 h2
+{
+	font-size: 32px;
+	margin-bottom: 15px;
+}
+.bg2 h3
+{
+	color: orange;
+}
+.bg2 p
+{
+	padding: 20px;
+}
+.hform
+{
+	padding: 15px 0px 8px 2px;
+}
+
+.hform input
+{
+	width: 55%;
+	height: 56px;
+	padding-left: 20px;
+	border: 1px solid #fff;
+}
+.hform button
+{
+	background: #008cc9;
+	padding: 14px;
+	border: 0px; color: #fff;
+	font-size: 22px;
+}
+.welcomein
+{
+	padding: 100px;
+	background: #e5f3f9;
+}
+.wleft
+{
+	float: left;
+	text-align: center;
+}
+}
+.wleft h2
+{
+	font-size: 33px;
+}
+.wleft h3
+{
+	font-size: 33px;
+}
+.wleft scan
+{
+	color: #ff9a04;
+}

@@ -1,0 +1,24 @@
+.header
+{
+  background-color: #3B5998;
+  height: auto;
+  width: 100%;
+}
+.logo
+{
+	float: left;
+}
+.info{
+	float: right;
+	margin-top: 8px;
+	font-weight: 200;
+	font-size: 0.9em;
+}
+.clearfix
+{
+	clear: both;
+}
+.content{
+	background: #EDF0F5;
+	
+}

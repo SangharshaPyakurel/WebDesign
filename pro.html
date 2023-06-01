@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		body
+		{
+			background: grey;
+		}
+		.page
+		{
+			width: 980px;
+			margin: auto;
+			background: #fff;
+		}
+		header
+		{
+			min-height: 90px; background: red; color: #fff; padding: 20px;
+		}
+		nav
+		{
+			min-height: 45px;
+			background: green;
+			color: #fff;
+			padding: 20px;
+		}
+		.logo{
+			float: left;
+
+		}
+		.contact
+		{
+			float: right;
+		}
+		nav ul
+		{
+			list-style: none;
+		}
+		nav ul li
+		{
+			float: left;
+		}
+		nav ul li a
+		{
+			text-decoration: none;
+		}
+		.clearfix
+		{
+			clear: both;
+		}
+		@media(max-width: 480px)
+		{
+			.page{ width: 100%; }
+			.logo, .contact, nav ul li{float: none; text-align: center;}
+				nav ul li:last-child{ display: none; }
+		}
+	</style>
+</head>
+<body>
+	<div class="page">
+	<header>
+		<div class="logo">logo</div>
+		<div class="contact">Phone num</div>
+		<div class="clearfix"></div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a> </li> 
+			<li><a href="#">About us</a> </li>
+		    <li><a href="#">Service</a> </li>
+		</ul>
+	</nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.con
+		{
+			padding: 30px;
+			background: grey;
+			display: grid;
+			grid-template-areas: "header header header"
+									"nav nav nav"
+									"left main right"
+									"footer footer footer"
+									}
+		.header
+		{
+			background: yellow;
+			padding: 30px;
+			grid-area: header
+		}
+		.nav
+		{
+			background: red;
+			padding: 30px;
+			grid-area: nav
+		}
+		.left
+		{
+			background: orange;
+			padding: 30px;
+			grid-area: left
+		}
+		.main
+		{
+			background: blue;
+			padding: 30px;
+			grid-area: main
+		}
+		.right
+		{
+			background: green;
+			padding: 30px;
+			grid-area: right
+		}
+		.footer
+		{
+			background: purple;
+			padding: 30px;
+			grid-area: footer
+		}
+
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="header">header</div>
+		<div class="nav">nav</div>
+		<div class="left">left</div>
+		<div class="main">main</div>
+		<div class="right">right</div>
+		<div class="footer">footer</div>
+	</div>
+
+</body>
+</html>
